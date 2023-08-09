@@ -148,18 +148,64 @@ body {
 
 /* ****Info Section**** */
 .info-section {
-  height: 100px;
+  padding: 4.8rem;
+  margin-bottom: 9.6rem;
+}
+
+.info-container h2 {
+  font-size: 3.6rem;
+  font-weight: 700;
+  color: #1f2937;
+  text-align: center;
+
+  margin-bottom: 3.6rem;
+}
+
+.box-container {
+  display: flex;
+  gap: 2.4rem;
+}
+
+.box-p-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  align-items: center;
+  text-align: center;
+}
+
+.box-p-container p {
+  font-size: 1.6rem;
+  color: #1f2937;
+}
+
+.info-container .box-wrapper {
+  position: relative;
+  height: 16rem;
+  width: 16rem;
+  background-color: #3882f6;
+  /* border: solid 1.2rem #3882f6; */
+  border-radius: 1.9rem;
+}
+
+.info-container .box-wrapper .box-inner {
+  top: 1rem;
+  left: 1rem;
+  position: absolute;
+  height: 14rem;
+  width: 14rem;
+  border-radius: 0.9rem;
   background-color: #fff;
 }
 
 /* ****Testimonial Section**** */
-.testimonial-section {
+.testimonial-container {
   height: 100px;
   background-color: lightslategrey;
 }
 
 /* ****CTA Section**** */
-.cta-section {
+.cta-container {
   height: 100px;
   background-color: lightcoral;
 }
